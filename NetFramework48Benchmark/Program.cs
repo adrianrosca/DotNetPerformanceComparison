@@ -36,11 +36,10 @@ namespace NetFramework48Benchmark
             BenchmarkListOperations();
             BenchmarkJsonSerialization();
             BenchmarkParallelProcessing();
-            BenchmarkStartupTime();
+            //BenchmarkStartupTime();
 
             Console.WriteLine("----------------------");
             Console.WriteLine("Benchmarks complete. Press any key to exit.");
-            Console.ReadKey();
         }
 
         #region String Operations

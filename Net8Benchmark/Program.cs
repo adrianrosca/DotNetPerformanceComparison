@@ -36,7 +36,7 @@ namespace Net8Benchmark
             BenchmarkListOperations();
             BenchmarkJsonSerialization();
             BenchmarkParallelProcessing();
-            BenchmarkStartupTime();
+            //BenchmarkStartupTime();
 
             Console.WriteLine("----------------------");
             Console.WriteLine("Benchmarks complete. Press any key to exit.");
