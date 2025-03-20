@@ -8,6 +8,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net8Benchmark", "Net8Benchmark\Net8Benchmark.csproj", "{073D7557-86A2-44B7-9EC3-C1CAFFAFB4C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkRunner", "BenchmarkRunner\BenchmarkRunner.csproj", "{EB3D2EE0-3897-421F-99E6-8FF6CC06B527}"
+	ProjectSection(ProjectDependencies) = postProject
+		{073D7557-86A2-44B7-9EC3-C1CAFFAFB4C7} = {073D7557-86A2-44B7-9EC3-C1CAFFAFB4C7}
+		{BF9831E4-E6B4-4BFE-9023-0A22FA9B24A7} = {BF9831E4-E6B4-4BFE-9023-0A22FA9B24A7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
